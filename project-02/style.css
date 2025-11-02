@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  Helvetica;
+  cursor: pointer;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+}
+#nav{
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  padding: 30px 40px;
+}
+#nav h3{
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px ;
+  border: 3px solid black;
+  transition: background-color 0.5s;
+  color: 0.15s;
+  margin-left: 7px;
+}
+#nav h3:hover{
+  background-color: black;
+  color: white;
+}
+#intro{
+  height: 45%;
+  width:100%;
+  padding: 30px;
+}
+#intro h1{
+  font-size: 80px;
+  letter-spacing: -2px;
+  line-height: 80px;
+}
+#intro h3{
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#place h4{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#place{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+img{
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+#about{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+#about h2 {
+  font-size: 60px;
+  width: 63%;
+  padding-left: 30px;
+  padding-top: 15px;
+  line-height: 60px;
+}
+#about-part2{
+  border-left: 2px solid black;
+  width: 35%;
+  height: 100%;
+  padding: 20px 50px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#about-part2 h4{
+  font-size: 20px;
+
+}
+#icons i{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 7px;
+  transition: background-color 0.5s;
+  color: 0.15s;
+}
+#icons i:hover{
+  background-color: white;
+  color: black;
+}
+#work{
+  height: 65%;
+  width: 100%;
+  border-top: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-bottom: 2px solid black;
+}
+#work1{
+  width: 35%;
+  height: 100%;
+  padding:20px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  border-right: 2px solid black;
+}
+
+#work1 i{
+ font-size: 30px;
+}
+#work2{
+  width: 70%;
+  height: 100%;
+  padding: 0 57px;
+}
+.work2-part{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+  
+}
+.work2-part:nth-child(1){
+  
+  border-bottom:2px solid black ;
+}
+.work2-part:nth-child(2){
+  background-color: white;
+}
+.work2-part .elem{
+  width: 50%;
+  height: 100%;
+}
+.work2-part .elem:nth-child(1){
+  border-right: 2px solid black;
+  padding-right: 50px;
+}
+.work2-part .elem:nth-child(2){
+  padding-left: 60px;
+}
+.elem h4{
+  font-size: 20px;
+  
+}
+.elem p {
+  padding-top: 10px;
+  font-weight: 500;
+  
+}

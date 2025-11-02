@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "Montserrat", sans-serif;
+  cursor: pointer;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.nav{
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+.nav-part1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px
+}
+.nav h3{
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  border: 2px solid black;
+  padding: 5px 10px;
+  transition: background-color 0.5s;
+  color:0.15s;
+}
+.nav h3:hover{
+  background-color: black;
+  color: white;
+}
+.nav h1{
+  text-transform: uppercase;
+
+}
+.nav button{
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin-right: 3px;
+  transition: background-color 0.5s;
+  color: 0.15s;
+}
+.nav button:hover{
+  background-color: black;
+  color: white;
+}
+#main>h1{
+  font-size: 100px;
+  text-transform: uppercase;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  text-align: center;
+
+}
+img{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 15px;
+  transform: translate(-50%,-50%);
+}
+#img4{
+  transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img3{
+  transform: translate(-50%,-50%) rotate(-20deg);
+  
+}
+#img2{
+  transform: translate(-50%,-50%) rotate(-10deg);
+  
+}
+#img1{
+  transform: translate(-50%,-50%) rotate(-0deg);
+  
+}
+#btm-left{
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  font-size: 17px;
+}
+.icons  {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  height: 30px;
+  font-size: 25px;
+}
+.txt{
+  font-size: 10px;
+  font-weight: bold;
+  margin-top:10px ;
+}
+
